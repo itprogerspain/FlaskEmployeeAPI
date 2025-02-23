@@ -1,0 +1,29 @@
+# Eliminate the virtual environment
+venv/
+.env
+
+# Exclude personal files
+personal_notes.txt
+
+# Exclude caches and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude hidden editor files
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# Exclude logs
+logs/
+*.log
+
+# Exclude Git-related files to avoid including version control data in the image
+.git
+.gitignore
+
+# Exclude Markdown files as they are documentation and not needed in the runtime
+*.md
