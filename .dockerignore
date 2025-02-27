@@ -1,5 +1,6 @@
 # Eliminate the virtual environment
 venv/
+.venv/
 .env
 
 # Exclude personal files
